@@ -1,4 +1,4 @@
-var Drill = require('./drill1.js');
+var Drill = require('./drill.js');
 //var drill = new Drill();
 var client = new Drill.Client({hostname:'localhost', port:8047});
 
