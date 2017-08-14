@@ -38,6 +38,36 @@ var Client = exports.Client = function(args){
 
 };
 
+Client.prototype.execute = function(queryString, callback) {
+  var href = url.format({
+    protocol: this.protocol,
+    hostname: 'localhost',
+    pathname: '/query.json',
+    port: 8047
+  })
+  var headers = {
+    'Content-Type': 'application/json; charset=UTF-8',
+    'Accept':'application/json'
+  }
+  var queryOptions = {
+    uri: href,
+    method: 'POST',
+    headers: headers,
+    json: {"queryType": "SQL", "query": queryString}
+  }
+  request(queryOptions, function (error, response, body) {
+    if (!error && response.statusCode == 200) {
+      console.log('victory')
+      callback(null, body);
+    } //TODO Add error handling
+  });
+};
+
+Client.prototype.getSchemata = function() {
+  //query('SHOW DATABASES')
+}
+
+
 Client.prototype.query = function(queryString, callback) {
   var href = url.format({
     protocol: this.protocol,

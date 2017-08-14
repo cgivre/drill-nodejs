@@ -1,5 +1,4 @@
 var Drill = require('./drill.js');
-//var drill = new Drill();
 var client = new Drill.Client({hostname:'localhost', port:8047});
 
 client.query('SELECT * FROM cp.`employee.json` LIMIT 10', function(error, data, columns){
