@@ -1,3 +1,7 @@
+[![npm package](https://nodei.co/npm/drill-client.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/drill-client)
+
+[![Known Vulnerabilities](https://snyk.io/test/github/cgivre/drill-nodejs/badge.svg)](https://snyk.io/test/github/cgivre/drill-nodejs)
+
 # Apache Drill Client for NodeJS
 These are initial experiments to create a connector for NodeJS to query Apache Drill. 
 
