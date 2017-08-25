@@ -1,5 +1,5 @@
 {
-  "name": "drill",
+  "name": "drill-client",
   "version": "0.1.1",
   "description": "This module serves as an interface for Apache Drill.",
   "main": "index.js",
@@ -11,15 +11,16 @@
     "url": "git+https://github.com/cgivre/drill-nodejs.git"
   },
   "author": "Charles Givre <cgivre@thedataist.com> (http://thedataist.com)",
-  "licenses": {
-	"type":"Apache",
-	"url":"https://github.com/cgivre/drill-nodejs/blob/master/LICENSE"
-},
+  "license": {
+    "type": "Apache",
+    "url": "https://github.com/cgivre/drill-nodejs/blob/master/LICENSE"
+  },
   "bugs": {
     "url": "https://github.com/cgivre/drill-nodejs/issues"
   },
   "homepage": "https://github.com/cgivre/drill-nodejs#readme",
   "dependencies": {
+    "drill": "git://github.com/cgivre/drill-nodejs.git",
     "json": "^9.0.6",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
