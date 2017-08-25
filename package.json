@@ -11,18 +11,24 @@
     "url": "git+https://github.com/cgivre/drill-nodejs.git"
   },
   "author": "Charles Givre <cgivre@thedataist.com> (http://thedataist.com)",
-  "license": "ISC",
+  "licenses": {
+	"type":"Apache",
+	"url":"https://github.com/cgivre/drill-nodejs/blob/master/LICENSE"
+}
   "bugs": {
     "url": "https://github.com/cgivre/drill-nodejs/issues"
   },
   "homepage": "https://github.com/cgivre/drill-nodejs#readme",
   "dependencies": {
-    "request": "^2.81.0",
     "json": "^9.0.6",
+    "request": "^2.81.0",
     "request-promise": "^4.2.1",
     "url": "^0.11.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
   "keywords": [
     "sql",
     "drill",
