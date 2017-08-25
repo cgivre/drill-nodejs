@@ -18,8 +18,7 @@ var Util = require('util')
 var request = require('request')
 var url = require('url')
 
-exports.version = 'unknown';
-//module.exports  = Drill;
+exports.version = '0.1.1';
 
 var Client = exports.Client = function(args){
   if (!args)
