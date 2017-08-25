@@ -1,6 +1,6 @@
 {
   "name": "drill",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "This module serves as an interface for Apache Drill.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "licenses": {
 	"type":"Apache",
 	"url":"https://github.com/cgivre/drill-nodejs/blob/master/LICENSE"
-}
+},
   "bugs": {
     "url": "https://github.com/cgivre/drill-nodejs/issues"
   },
