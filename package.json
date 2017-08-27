@@ -11,16 +11,12 @@
     "url": "git+https://github.com/cgivre/drill-nodejs.git"
   },
   "author": "Charles Givre <cgivre@thedataist.com> (http://thedataist.com)",
-  "license": {
-    "type": "Apache",
-    "url": "https://github.com/cgivre/drill-nodejs/blob/master/LICENSE"
-  },
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/cgivre/drill-nodejs/issues"
   },
   "homepage": "https://github.com/cgivre/drill-nodejs#readme",
   "dependencies": {
-    "drill": "git://github.com/cgivre/drill-nodejs.git",
     "json": "^9.0.6",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
